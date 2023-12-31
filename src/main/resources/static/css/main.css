@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+.title {
+    /*font-family: 'Catamaran', serif;
+    font-size: 56px;*/
+
+    font-family: "Yanone Kaffeesatz";
+    font-size: 56px;
+}
+
+body {
+
+    text-align: center;
+    max-width: 340px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5,  50px);
+    max-height: 180px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+.green-form {
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    font-family: 'Catamaran', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(99, 152, 33, 0.6);
+    color: #1E5806;
+    box-shadow: 2px 5px 10px 1px #4CA230;
+    border-radius: 10px;
+    border: 2px solid #4FA00A;
+}
+
+.yellow-form {
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    font-family: 'Catamaran', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(225, 221, 64, 0.5);
+    color: rgba(230, 182, 0, 1);
+    box-shadow: 2px 5px 10px 1px #B9B60E;
+    border-radius: 10px;
+    border: 2px solid #D4C80E;
+}
+
+.gray-form {
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    font-family: 'Catamaran', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #353333;
+    box-shadow: 2px 5px 10px 1px #585856;
+    border-radius: 10px;
+    border: 2px solid #757575;
+}
+
+.button {
+    width: 75px;
+    height: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: #ABABAB;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px 1px #585856;
+}
+
+.msg {
+    font-size: 26px;
+    font-family: 'Catamaran', serif;
+}
+
+.result-header {
+    font-size: 30px;
+    font-family: 'Catamaran', serif;
+    font-weight: bold;
+}
+.results {
+    font-size: 26px;
+    font-family: 'Catamaran', serif;
+}
